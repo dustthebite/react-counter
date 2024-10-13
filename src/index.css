@@ -1,13 +1,47 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+body{
+  background-color: hsl(0, 0%, 10%);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+h1{
+  font-size: 4rem;
+  color: white;
+  text-align: center;
+  margin-top: 100px;
+}
+
+button{
+    font-size: 1.7rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+    font-size: 1.4rem;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.counter{
+  text-align: center;
+}
+
+.button-holder{
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+}
+
+.add-button{
+  background-color: hsla(113, 75%, 41%, 0.691);
+}
+
+.remove-button{
+  background-color: hsla(0, 84%, 37%, 0.805);
+}
+
+.reset-button{
+  background-color: hsla(252, 80%, 36%, 0.555);
 }
